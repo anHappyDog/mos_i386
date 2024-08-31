@@ -2,7 +2,7 @@
 include ../include.mk
 
 objects		:= loadkernel.o start.o
-target		:= bootloader
+target		:= kernelloader
 includes	:= -I../include
 
 all:$(target)
